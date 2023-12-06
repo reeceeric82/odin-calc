@@ -7,3 +7,70 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.calc-body {
+    background-color: beige;
+    width: 500px;
+    height: 780px;
+    margin: 40px auto;
+    position: absolute;
+    right: calc(100vw / 2.7)
+}
+
+.calc-screen {
+    background-color: lightgray;
+    width: 400px;
+    height: 200px;
+    margin: 40px auto 20px;
+    position: relative;
+}
+
+.text {
+    float: right;
+    padding: 170px 20px 0px 0px;    
+}
+
+.btn {
+    background-color: burlywood;
+    width:80px;
+    height: 80px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0px auto 0px
+}
+
+.btn:hover {
+    opacity: 80%;
+}
+
+.clear-btn {
+    background-color: orangered;
+    width: 190px;
+    height: 80px;
+    opacity: 70%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.del-btn {
+    background-color: cyan;
+    opacity: 70%;
+    width: 190px;
+    height: 80px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.row {
+    display: flex;
+    padding: 10px;
+}
+
+.rows {
+    margin: auto;
+}
+
+.row-1 {
+    justify-content: space-around;
+}
+
